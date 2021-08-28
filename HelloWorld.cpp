@@ -8,7 +8,7 @@ int main()
     cout<<"hello\n";
    
     
-    return 100;
+    return 0; 
     
     
     
