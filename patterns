@@ -1,3 +1,4 @@
+// 1+2+3+4+5......n
 #include <iostream>
 using namespace std;
 int main()
@@ -11,10 +12,8 @@ for (int i=1;i<=n;i++)
     }
     cout<<total;
     
-return 0;
-    
-    
-    
-    
-    
+return 0; 
 }
+
+
+// 
