@@ -1,0 +1,12 @@
+// pattern 1 :- 1+2+3+4+5.....+n
+#include <iostream>
+using namespace std;
+int main()
+{ int total=0,n;
+cout<<"Enter the last number: ";
+cin>>n;
+for(int i=1;i<=n;i++)
+  {total=total +i;}
+  cout <<"Sum is "<<total;
+  return 0;
+  }
