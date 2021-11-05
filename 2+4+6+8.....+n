@@ -1,0 +1,13 @@
+// pattern 2 :- 2+4+6+8.....+n
+#include <iostream>
+using namespace std;
+int main()
+{ int total=0,n;
+cout<<"Enter the last even number: ";
+cin>>n;
+for(int i=2;i<=n;)
+  {total=total +i;
+  i=i+2;}
+  cout <<"Sum is "<<total;
+  return 0;
+  }
