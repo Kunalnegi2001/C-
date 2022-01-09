@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    // Print a matrix
+    int a[3][3],b[3][3],c[3][3],i,j;
+    for(i=0;i<=2;i++)
+    {for(j=0;j<=2;j++){
+        cout<<"Enter elements for matrix A: ";
+        cin>>a[i][j]; }
+    }
+    
+    cout<< "matrix A: "<<endl;
+      for(i=0;i<=2;i++)
+    {for(j=0;j<=2;j++){
+        
+        cout<<a[i][j]<<" ";
+       } cout<<"\n";
+    }
+    
+    
+    // Print another matrix
+    
+    for(i=0;i<=2;i++)
+    {for(j=0;j<=2;j++){
+        cout<<"Enter elements for matrix B: ";
+        cin>>b[i][j]; }
+    }
+    
+    cout<< "matrix B: "<<endl;
+      for(i=0;i<=2;i++)
+    {for(j=0;j<=2;j++){
+        
+        cout<<b[i][j]<<" ";
+       } cout<<"\n";
+    }
+
+    
+    // Sum of elements of matrix i.e A+B 
+    cout<<endl;
+    cout<<"Matrix C=A+B: "<<endl;
+    for(i=0;i<=2;i++)
+    {for(j=0;j<=2;j++){
+        cout<<a[i][j]+b[i][j]<<" ";}
+       cout<<"\n";
+    }
+
+    return 0;
+    
+}
