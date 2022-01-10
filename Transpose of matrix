@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[3][3],b[3][3],i,j;
+    for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cout<<"Enter Element for Matrix A: ";
+            cin>>a[i][j];
+        }
+    }
+    cout<<"Matrix A: "<<endl;
+    
+     for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cout<<a[i][j]<<"\t";
+
+        }
+        cout<<endl;
+        cout<<endl;
+    }
+    
+    cout<<endl;
+     for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+           b[i][j]=a[j][i];
+
+        }
+
+    }
+    
+    
+    cout<<"Transpose of Matrix A: ";
+    cout<<endl;
+     for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cout<<b[i][j]<<"\t";
+
+        }
+        cout<<endl;
+        cout<<endl;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+}
